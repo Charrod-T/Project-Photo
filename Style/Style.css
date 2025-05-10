@@ -1,6 +1,84 @@
+body {
+    background-color: #2f3035;
+    background-image: url();
+}
+
+
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 1024px;
+}
+
+header {
+    background-color: blue;
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: red;
+    height: 40px;
+}
+
+section {
+    text-align: center;
+    height: 400px;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 80px;
+    
+}
+
+footer {
+    background-color: greenyellow;
+    height: 100px;
+}
+h2{
+    font-family: 'lora', Gloria Hallelujah;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 143, 19)
+}
 h1 {
-    background-color: whitesmoke;
-    text-align: left;
-    font-family: 'Cinzel', Gloria Hallelujah;
-    }
+    font-family: 'Cinzel'; Gloria Hallelujah;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58.5604px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    font-size:16px;
+    color: whitesmoke;
+    font-family: 'Lora', Gloria Hallelujah;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(226, 143, 19);
+    font-family: 'lora', Gloria Hallelujah;
+    font-style: 'normal';
+    text-align: center;
+    font-weight: 400;
+    font-size: 13.6px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 2.72px;
+}
+
+
+
+
+
+
+
+
+
 
