@@ -30,7 +30,7 @@ nav {
     text-decoration-style: solid;
     text-underline-offset: 2.72px;
     text-align: center;
-    font-family: 'lora', Gloria Hallelujah;
+    font-family: 'lora';
     font-weight: 400;
     letter-spacing: 5px;
     line-height: 24.075px;
@@ -62,8 +62,9 @@ h2 {
     font-style: normal;
     color: rgb(226, 143, 19)
 }
+
 h1 {
-    font-family: 'Cinzel'; Gloria Hallelujah;
+    font-family: 'Cinzel';
     font-style: normal;
     font-weight: 400;
     font-size: 58.5604px;
@@ -112,9 +113,12 @@ footer p {
     text-align: center;
 }
 
-.Contact{
-    
+.contact {
+    font-family: 'Cinzel';
 }
+
+
+
 .list{
     color: white;
     font-weight: 400px;
