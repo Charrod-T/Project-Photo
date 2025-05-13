@@ -238,39 +238,10 @@ margin-right: 40px;
 }
 
 .behind{
-    text-align: center;
+    text-align: left;
     font-family: 'Lora';
     color: rgb(226, 143, 19);
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 1024px; */
-    margin-top: 90px;
-    margin-bottom: 90;
-}
-
-.pic{
-    margin-left: 240px;
-    text-align: left;
-    padding: 20px 0;
-}
-
-.Gracie{
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
-
-h5{ letter-spacing: 0.65px;
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Lora';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
 }
