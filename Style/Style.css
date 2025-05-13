@@ -1,11 +1,15 @@
+/* Project-photo.html */
+html {
+    height: 100%;
+}
 
 body {
     background-blend-mode: soft-light;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(0, 0, 0, 0.7250);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../Images/background.png);
-    background-position: center;
+    background-position: cover;
     width: 100vw;
     height: 100vh;
 }
@@ -21,8 +25,7 @@ header {
     height: 118px;
     text-align: center;
 }
-
-nav {
+.nav {
     background-color: rgba(0, 0, 0, 0.2000);
     padding-top: 14px;
     padding-bottom: 14px;
@@ -38,6 +41,7 @@ nav {
 }
 
 section {
+    color: whitesmoke;
     text-align: center;
     height: 400px;
     margin-top: 80px;
@@ -45,25 +49,22 @@ section {
     padding-left: 180px;
     padding-right: 180px;
     margin-bottom: 80px;
-    
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.1000);
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-h2 {
-    font-size: 13.6px;
-    font-family: 'lora', Gloria Hallelujah;
+.copy {
+     font-family: 'Cinzel';
+    font-style: 'normal';
+    text-align: center;
     font-weight: 400;
-    font-style: normal;
-    color: rgb(226, 143, 19)
+    font-size: 12px;
+    color: rgb(226, 143, 19);
 }
-
-h1 {
+.Photo {
     font-family: 'Cinzel';
     font-style: normal;
     font-weight: 400;
@@ -71,7 +72,13 @@ h1 {
     color: white;
     text-align: center;
 }
-
+h2 {
+    font-size: 13px;
+    font-family: 'lora';
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 143, 19)
+}
 p {
     font-size:16px;
     color: white;
@@ -80,8 +87,7 @@ p {
     text-align: center;
     font-weight: 400;
 }
-
-a {
+a{
     color: rgb(226, 143, 19);
     font-family: 'lora';
     font-style: 'normal';
@@ -106,40 +112,136 @@ footer p {
     text-align: center;
     font-weight: 400;
     font-size: 12px;
-    color: rgb(226, 143, 19);
+    color: whitesmoke
 }
 
 .Maps {
     text-align: center;
+} 
+
+
+
+/* Contact.html */
+p,input,textarea,label{
+    font-family: 'Lora';
 }
 
-.contact {
+.Contactus {
+    text-align: center;
+    font-size: 58px;
     font-family: 'Cinzel';
-}
-
-
-
-.list{
-    color: white;
-    font-weight: 400px;
-    font-family:'Lora';
-    font-size: 16px;
-    font-style: normal;
-}
-
-span{
-    color: white;
-    font-family: 'lora';
-    font-size: 16px;
     font-weight: 400;
-    font-style: normal;
-}
-
-
-.description{
     color: rgb(226, 143, 19);
-    font-family: 'lora';
+    padding-bottom: 20px;
+}
+.call{
+    color: whitesmoke;
+}
+
+.content{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+input,textarea,label{
+    display: block;
+    margin: 0;
+    width: 100%;
+    color: whitesmoke;
+}
+
+input,textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(226, 143, 19);
+}
+
+input[type=Submit]
+{background-color: rgb(143, 91, 12);
+    padding: 15px 0;
+    color: whitesmoke;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=Submit]:hover{
+background: rgb(49, 49, 49);
+color: rgb(143, 91, 12);
+}
+
+input,textarea{
+    /* color: whitesmoke; */
     font-size: 16px;
+    padding: 10px;
+ }
+input:focus,
+textarea:focus{
+    outline: 1px solid rgb(226, 143, 19);
+}
+
+.call{
+color: whitesmoke;}
+
+textarea[name=message]{
+    font-style: 'Cinzel';
+}
+
+/* portfolio.html */
+.fabian {
+    color: white;
+    font-family: 'Lora';
+    font-size: 16.5px;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 143, 19);
+    padding-bottom: 20px;
+}
+.port1 {
+    margin-right: 40px;
+}
+.port2 {
+    margin-right: 40px;
+}
+.port3 {
+margin-right: 40px;
+}
+
+
+/* Aboutme.hhtml */
+
+.bio{
+    background-blend-mode: soft-light;
+    background-color: rgb(0, 0, 0, 0.7250);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Images/background.png);
+    background-position: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.behind{
+    text-align: center;
+    font-family: 'Lora';
+    color: rgb(226, 143, 19);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
