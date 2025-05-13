@@ -126,7 +126,7 @@ p,input,textarea,label{
     font-family: 'Lora';
 }
 
-.Contactus {
+.Contactus {margin-top: 100px;
     text-align: center;
     font-size: 58px;
     font-family: 'Cinzel';
@@ -204,7 +204,7 @@ textarea[name=message]{
     font-style: normal;
     text-align: center;
 }
-h4 {
+h4 {margin-top: 100px;
     text-align: center;
     font-size: 58px;
     font-family: 'Cinzel';
@@ -237,11 +237,36 @@ margin-right: 40px;
     height: 100vh;
 }
 
-.behind{
-    text-align: left;
+.behind{ margin-top: 100px;
+    text-align: center;
     font-family: 'Lora';
     color: rgb(226, 143, 19);
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    padding-top: 10px;
+}
+
+h5{ letter-spacing: 1.2px;
+    font-family: 'Lora';
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.gracie{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Cinzel';
+    color: whitesmoke;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 58px;
+}
+.pic{
+    padding-left: 282.5px;
+    margin-top: -30px;
 }
